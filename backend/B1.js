@@ -1,14 +1,19 @@
-const { createServer } = require('node:http');
+// const { createServer } = require('node:http');
+// import {a,b,d} from "./B2.js"
+// console.log(a,b,d);
+//++++++named ko aese karte h ++++
 
-const hostname = '127.0.0.1';
-const port = 3000;
+//+++default ko kaise karte h++++
 
-const server = createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('<h1>Hello World</h1>');
-});
+// import Ashu from "./B2.js"
+// console.log(Ashu);
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// here b2 and b1 are connected
+
+// (function(exports, require, module, __filename, __dirname){
+//   //module code actually lives here
+// })
+
+const a = require("./B3.js")
+
+console.log(a, __dirname, __filename);

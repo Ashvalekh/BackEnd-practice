@@ -1,0 +1,13 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "I usually practice and advance my skills in here. In case you want to see what i know, how much i know, you can see it here...",
+  "main": "b4.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

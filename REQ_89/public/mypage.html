@@ -6,10 +6,11 @@
     <title>Testing Post Request</title>
   </head>
   <body>
+    <h1>aa gaye</h1>
     <script>
       async function testPost() {
-        let a = await fetch("/mypage.html", { method: "post" });
-        let b = await a.text;
+        let a = await fetch("/mypage.html", { method: "POST" });
+        let b = await a.text();
         console.log(b);
       }
     </script>

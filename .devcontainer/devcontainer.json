@@ -10,7 +10,8 @@
 				"esbenp.prettier-vscode",
 				"PKief.material-icon-theme",
 				"ms-vscode.live-server",
-				"ritwickdey.LiveServer"
+				"ritwickdey.LiveServer",
+				"DigitalBrainstem.javascript-ejs-support"
 			]
 		}
 	}

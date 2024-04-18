@@ -7,9 +7,10 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   let siteName = "Adidas";
   let searchText = "Search now";
+  let arr = [1, 54, 65]
   res.render("index", {
     siteName: siteName,
-    searchText: searchText,
+    searchText: searchText, arr
   });
 });
 app.get("/blog/:slug", (req, res) => {

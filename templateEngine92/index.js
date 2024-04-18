@@ -7,7 +7,7 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   let siteName = "Adidas";
   let searchText = "Search now";
-  res.render("index.html", {
+  res.render("index", {
     siteName: siteName,
     searchText: searchText,
   });

@@ -8,7 +8,9 @@
 		"vscode": {
 			"extensions": [
 				"esbenp.prettier-vscode",
-				"PKief.material-icon-theme"
+				"PKief.material-icon-theme",
+				"ms-vscode.live-server",
+				"ritwickdey.LiveServer"
 			]
 		}
 	}
